@@ -1,0 +1,181 @@
+* { font-size:12px; font-family:'Apple SD Gothic Neo',arial,sans-serif; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:visited { color:#3e3e3e; }
+a:link {color:#3e3e3e;}
+html {height:100%;	width:100%;}
+head {height:100%;	width:100%;}
+body {height:100%;	width:100%;	margin:0px; padding:0px;}
+
+img { border:0; }
+
+#top_left{
+	height:30px;
+	padding-top:3px;
+	padding-right:15px;
+}
+
+#top_left a{
+	font-size:13px;
+	margin-right:13px;
+	color:#3e3e3e;
+}
+
+#top_left a:hover{
+	color:#6e6e6e;
+	text-decoration: underline;
+}
+
+#top_left a:link{
+	color:#6e6e6e;
+}
+
+.special_icon {
+	position: relative;
+	margin-left:5px;
+	top:3px;
+}
+
+.special_icon:hover {
+	content: url('../img/app_hover.png');
+}
+
+.special_icon2 {
+	position: relative;
+	top:5px;
+	margin-left:9px;
+
+}
+
+.special_icon2:hover {
+	content: url('../img/alram_hover.png');
+}
+
+.special_icon3 {
+	position: relative;
+	margin-left:4px;
+	top:11px;
+}
+
+#ct_wrap{
+	margin-top:165px;
+}
+
+.ct_logo {
+
+}
+
+#ct_search{
+	margin-top:25px;
+	height:44px;
+	width:584px;
+	border:1px solid #ececec;
+}
+
+.sc_wrap1 {
+	position: relative;
+	left:-45px;
+	width:463px;
+	height:44px;
+}
+
+.sc_wrap2 {
+	position: relative;
+	right:-230px;
+	top:-47px;
+	width:80px;
+	max-width: 80px;
+	height:44px;
+}
+
+.scwrap2_1 {
+	position: relative;
+	top:11px;	
+
+}
+
+.scwrap2_1:hover {
+	content: url('../img/keyboard_hover.png');
+}
+
+.scwrap2_2 {
+	position: relative;
+	left:18px;
+	top:15px;	
+}
+
+.ct_search_bar {
+	width:463px;
+	height:44px;
+	border:0px;
+	font-size:14px;
+	font-weight: bold;
+}
+
+.ct_search_bar:focus {
+	outline: none;
+}
+
+#ct_button {
+	margin-top:27px;
+}
+
+
+#ct_button input{
+	font-family: 맑은고딕;
+	border:0;
+	font-weight: bold;
+	height:38px;
+	padding-left:18px;
+	padding-right:18px;
+	color:#777;
+	font-size:13px;
+	margin-left:6px;
+	background-color:#f4f4f4;
+
+	border:1px solid #fff;
+}
+
+#ct_button input:focus{
+	outline: none;
+}
+
+#ct_button input:hover{
+	border:1px solid #ccc;
+	color:#000;
+	background-color:#f9f9f9;
+}
+
+#tail_wrap {
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+}
+
+.tail_first {
+	border-top:1px solid #ddd;
+	background-color:#efefef;
+	height:31px;
+	vertical-align: center;
+	font-size:15px;
+	color:#777777;
+	padding-top:9px;
+	padding-left:30px;
+}
+.tail_second {
+	border-top:1px solid #ddd;
+	background-color:#efefef;
+	height:30px;
+	vertical-align: center;
+	padding-top:11px;
+	padding-left:30px;
+}
+
+.tail_second a {
+	font-size:13px;
+	color:#5e5e5e;
+	margin-right:23px;
+}
+
+.right { position: absolute; right:8px; }
